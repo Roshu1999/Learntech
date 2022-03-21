@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learntech-Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        .map-container {
+            height: 200px;
+            position: relative;
+        }
+    
+        .map-container iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+    </style>
+    <header>
+    
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+        
+            <div class="container">
+        
+                <a class="navbar-brand" href="index.html">LEARNTECH</a>
+        
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" data-offset="90">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="courses.html" data-offset="90">Courses</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" data-offset="90">Contact</a>
+                        </li>
+                    </ul>
+        
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a href="https://www.facebook.com" class="nav-link waves-effect" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://twitter.com" class="nav-link waves-effect" target="_blank">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com" class="nav-link waves-effect" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://learntech.com/docs/jquery/newsletter/"
+                                class="nav-link border border-light rounded waves-effect mr-2" target="_blank">
+                                <i class="fas fa-envelope mr-1"></i>Newsletter
+                            </a>
+                        </li>
+                    </ul>
+        
+                </div>
+        
+            </div>
+        
+        </nav>
+        <!-- Navbar -->
+    
+    </header>
+    <div class="container-fluid  z-depth-1 px-0" >
+    
+        <!--Section: Content-->
+        <div>
+        <section
+            style="background-image: url('photos/contact.jpg'); background-size: cover; background-position: center center;">
+    
+            <div class="rgba-black-strong rounded p-5">
+    
+                <!-- Section heading -->
+                <h3 class="text-center font-weight-bold text-white mt-5 mb-5">Contact Us</h3>
+    
+                <form class="mx-md-5" action="">
+    
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+    
+                            <div class="card">
+                                <div class="card-body px-4">
+                                    <div id="map-container-google-1" class="z-depth-1 map-container mb-5">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1904.8493199536051!2d78.53794423941659!3d17.28180869914455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba3b7138f229b%3A0x58c171967385349e!2sMaturi%20Venkata%20Subba%20Rao%20Engineering%20College!5e0!3m2!1sen!2sin!4v1623740496999!5m2!1sen!2sin"
+                                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                    </div>
+                                    <!-- Name -->
+                                    <div class="md-form md-outline mt-4">
+                                        <input type="text" id="name" class="form-control">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                    <!-- Email -->
+                                    <div class="md-form md-outline mt-4">
+                                        <input type="text" id="email" class="form-control">
+                                        <label for="email">Your Email Address</label>
+                                    </div>
+                                    <!-- Message -->
+                                    <div class="md-form md-outline mt-4">
+                                        <textarea id="message" class="md-textarea form-control" rows="3"></textarea>
+                                        <label for="message">Your Message</label>
+                                    </div>
+                                    <center><button type="submit" class="btn btn-deep-purple btn-md ">Submit Enquiry</button></center>
+                                    
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="col-md-5 offset-md-1 mt-md-4 mb-4 white-text">
+    
+                            <h5 class="font-weight-bold">Address</h5>
+                            <p class="mb-0">Mvsr Engineering college</p>
+                            <p class="mb-0">Nadergul, 504215</p>
+                            <p class="mb-4 pb-2">Hyderabad</p>
+    
+                            <h5 class="font-weight-bold">Phone</h5>
+                            <p class="mb-4 pb-2">+ 01 234 567 89</p>
+    
+                            <h5 class="font-weight-bold">Email</h5>
+                            <p>learntechinfo@gmail.com</p>
+    
+                        </div>
+                    </div>
+    
+                </form>
+    
+            </div>
+    
+        </section>
+        </div>
+        <!--Section: Content-->
+    
+    </div>
+<footer class="page-footer font-small deep-purple " style="margin-top: 100px;">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!-- Grid row-->
+        <div class="row">
+
+            <!-- Grid column -->
+            <div class="col-md-12 py-5">
+                <div class="mb-5 flex-center">
+
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com" class="nav-link waves-effect" target="_blank">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com" class="nav-link waves-effect" target="_blank">
+                        <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                    </a>
+                    <!-- Google +-->
+                    <a href="https://google.com" class="nav-link waves-effect" target="_blank">
+                        <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Linkedin -->
+                    <a href="https://linkedin.com" class="nav-link waves-effect" target="_blank">
+                        <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a href="https://instagram.com" class="nav-link waves-effect" target="_blank">
+                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Pinterest-->
+                    <a href="https://pinterest.com" class="nav-link waves-effect" target="_blank">
+                        <i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>
+                    </a>
+                </div>
+            </div>
+            <!-- Grid column -->
+
+        </div>
+        <!-- Grid row-->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2021 Copyright:
+        <a href="index.html">LEARNTECH</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+        <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</body>
+</html>
